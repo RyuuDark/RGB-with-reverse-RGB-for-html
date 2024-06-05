@@ -8,18 +8,18 @@
   }
 
 .reverseDiv{
-  width: calc(100% - 40px); /* Vegyük figyelembe a margókat */
-  height: calc(100% - 40px); /* Vegyük figyelembe a margókat */
+  width: calc(100% - 10px); /* Vegyük figyelembe a margókat */
+  height: calc(100% - 10px); /* Vegyük figyelembe a margókat */
   background-color: lightcoral;
-  margin: 20px; /* Távolság a szélektől */
+  margin: 5px; /* Távolság a szélektől */
   display: flex; /* Középre igazításhoz */
   justify-content: center; /* Vízszintesen középre */
   align-items: center; /* Függőlegesen középre */
 }
 
 .innerDiv{
-  width: calc(100% - 40px); /* Vegyük figyelembe a margókat */
-  height: calc(100% - 40px); /* Vegyük figyelembe a margókat */
+  width: calc(100% - 10px); /* Vegyük figyelembe a margókat */
+  height: calc(100% - 10px); /* Vegyük figyelembe a margókat */
   background-color: blue;
-  margin: 20px; /* Távolság a szélektől */
+  margin: 5px; /* Távolság a szélektől */
 }

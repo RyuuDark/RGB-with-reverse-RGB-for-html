@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Manuális idő beállítása
 
-    const colorChangeInterval = 5; // 1000ms = 1 másodperc
+    const colorChangeInterval = 50; // 1000ms = 1 másodperc
     setInterval(changeBackgroundColor, colorChangeInterval);
 });
 
