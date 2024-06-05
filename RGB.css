@@ -1,0 +1,25 @@
+.backgroundDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* Kezdd feketével */
+  }
+
+.reverseDiv{
+  width: calc(100% - 40px); /* Vegyük figyelembe a margókat */
+  height: calc(100% - 40px); /* Vegyük figyelembe a margókat */
+  background-color: lightcoral;
+  margin: 20px; /* Távolság a szélektől */
+  display: flex; /* Középre igazításhoz */
+  justify-content: center; /* Vízszintesen középre */
+  align-items: center; /* Függőlegesen középre */
+}
+
+.innerDiv{
+  width: calc(100% - 40px); /* Vegyük figyelembe a margókat */
+  height: calc(100% - 40px); /* Vegyük figyelembe a margókat */
+  background-color: blue;
+  margin: 20px; /* Távolság a szélektől */
+}
